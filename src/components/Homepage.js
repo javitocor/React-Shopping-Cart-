@@ -14,32 +14,32 @@ const Homepage = () => {
         </p>
       </div>
       <div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
+      <div className="row" style={{width:"100%", margin:"auto"}}>
+        <div className="col-md-4">
+          <div className="thumbnail">
             <a href="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" >
-              <img src="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Lights" style={{width:"100%"}} />
-              <div class="caption">
+              <img src="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Lights" style={{width:"100%", height: "235px"}} />
+              <div className="caption">
                 <p>Lorem ipsum...</p>
               </div>
             </a>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
+        <div className="col-md-4">
+          <div className="thumbnail">
             <a href="https://images.unsplash.com/photo-1577741314755-048d8525d31e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-              <img src="https://images.unsplash.com/photo-1577741314755-048d8525d31e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Nature" style={{width:"100%"}}/>
-              <div class="caption">
+              <img src="https://images.unsplash.com/photo-1577741314755-048d8525d31e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Nature" style={{width:"100%", height: "235px"}}/>
+              <div className="caption">
                 <p>Lorem ipsum...</p>
               </div>
             </a>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
+        <div className="col-md-4">
+          <div className="thumbnail">
             <a href="https://images.unsplash.com/photo-1583634852966-130c15654305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-              <img src="https://images.unsplash.com/photo-1583634852966-130c15654305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Fjords" style={{width:"100%"}}/>
-              <div class="caption">
+              <img src="https://images.unsplash.com/photo-1583634852966-130c15654305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Fjords" style={{width:"100%", height: "235px"}}/>
+              <div className="caption">
                 <p>Lorem ipsum...</p>
               </div>
             </a>
