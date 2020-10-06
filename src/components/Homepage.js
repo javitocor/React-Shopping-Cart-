@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Homepage = () => {
   return(
@@ -8,7 +9,7 @@ const Homepage = () => {
       <hr className="my-4" />
       <p>If exists we got it! Go ahead and check our products lists.</p>
       <p className="lead">
-        <a className="btn btn-secondary btn-lg" href="#" role="button">Learn more</a>
+        <Link to="/shop" className="btn btn-secondary btn-lg">Our Shop</Link>
       </p>
     </div>
   );
